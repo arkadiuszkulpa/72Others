@@ -8,7 +8,11 @@
       "Bash(aws sts get-caller-identity:*)",
       "Bash(npm run sandbox:*)",
       "Bash(timeout 45 tail:*)",
-      "Bash(npm run dev:*)"
+      "Bash(npm run dev:*)",
+      "Bash(git ls-tree:*)",
+      "Bash(xargs ls:*)",
+      "Bash(git log:*)",
+      "WebFetch(domain:www.arkadiuszkulpa.co.uk)"
     ]
   }
 }

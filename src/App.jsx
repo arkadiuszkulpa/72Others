@@ -9,6 +9,7 @@ import HowItWorks from './pages/HowItWorks';
 import Subscribe from './pages/Subscribe';
 import WhatsAppRedirect from './pages/WhatsAppRedirect';
 import AdminDashboard from './pages/AdminDashboard';
+import DoWithout from './pages/DoWithout';
 
 function App() {
   useEffect(() => {
@@ -33,6 +34,7 @@ function App() {
             <Route path="/subscribe" element={<Subscribe />} />
             <Route path="/join-whatsapp" element={<WhatsAppRedirect />} />
             <Route path="/admin" element={<AdminDashboard />} />
+            <Route path="/dowithout" element={<DoWithout />} />
           </Routes>
         </main>
         <Footer />
